@@ -35,3 +35,5 @@ jobs:
           version: '2020.04.05'
       - name: Run clj-kondo
         run: clj-kondo --lint src-cljs
+      - name: tree /
+        run: tree
